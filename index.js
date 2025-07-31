@@ -21,7 +21,7 @@ let count = 0;
 let id = 0;
 cartQ.innerText = `(${cartNumber})`;
 
-fetch("../jinsonFolder/index.json").then(Response => Response.json()).then(data => {
+fetch("index.json").then(Response => Response.json()).then(data => {
     data.forEach((itm, inx) => {
  
         const subDiv = document.createElement("div");
