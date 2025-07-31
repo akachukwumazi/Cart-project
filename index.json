@@ -30,7 +30,7 @@
     "price": 1300
   },
   {
-    "src": "../cart/51160200_glazed-doughnuts_1x1.jpg",
+    "src": "./cart/51160200_glazed-doughnuts_1x1.jpg",
     "name": "Donut",
     "description": "Colorful donut with rainbow sprinkles.",
     "price": 900
