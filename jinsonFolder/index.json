@@ -1,0 +1,56 @@
+[
+  {
+    "src": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "name": "Waffle",
+    "description": "Crispy golden waffle with syrup and berries.",
+    "price": 1500
+  },
+  {
+    "src": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=500&q=60",
+    "name": "Pancake",
+    "description": "Stack of fluffy pancakes with banana and honey.",
+    "price": 1200
+  },
+  {
+    "src": "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "name": "Toast",
+    "description": "Toasted bread topped with avocado and egg.",
+    "price": 800
+  },
+  {
+    "src": "https://images.pexels.com/photos/3026801/pexels-photo-3026801.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "name": "Bagel",
+    "description": "Fresh bagel sandwich with cream cheese.",
+    "price": 1000
+  },
+  {
+    "src": "https://images.pexels.com/photos/8969237/pexels-photo-8969237.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "name": "Croissant",
+    "description": "Flaky buttery croissant, freshly baked.",
+    "price": 1300
+  },
+  {
+    "src": "../cart/51160200_glazed-doughnuts_1x1.jpg",
+    "name": "Donut",
+    "description": "Colorful donut with rainbow sprinkles.",
+    "price": 900
+  },
+  {
+    "src": "https://images.pexels.com/photos/1373915/pexels-photo-1373915.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "name": "Muffin",
+    "description": "Moist chocolate chip muffin.",
+    "price": 1100
+  },
+  {
+    "src": "https://images.pexels.com/photos/4109991/pexels-photo-4109991.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "name": "Crepe",
+    "description": "Thin crepes folded with strawberries and cream.",
+    "price": 1400
+  },
+  {
+    "src": "https://images.pexels.com/photos/208537/pexels-photo-208537.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "name": "Bun",
+    "description": "Sweet bun topped with sesame seeds.",
+    "price": 950
+  }
+]

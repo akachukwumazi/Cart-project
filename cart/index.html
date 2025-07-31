@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+     <link rel="stylesheet" href="../input.css">
+     <style>
+        webkit-scrollbar {
+            display: none;
+        } 
+        .scrolTo::-webkit-scrollbar {
+            width: 0px;
+            scrollbar-width: none; 
+            -ms-overflow-style: none; 
+            background: transparent; 
+        }
+        #cartSubCon{
+            scrollbar-width: none; 
+            -ms-overflow-style: none;   
+        }
+        #displayOrderd::-webkit-scrollbar {
+            width: 0px;
+            background: transparent; 
+            scrollbar-width: none; 
+            -ms-overflow-style: none; 
+        }
+     </style>
+</head>
+<body class="flex w-full bg-gray-300">
+    <div class="flex w-full h-screen">
+        <div class="grid grid-cols-3 w-max ml-16 overflow-y-scroll py-4 bar-hidden scrolTo" id="container"></div>
+    
+        <div class="flex flex-col w-[350px] h-[500px] rounded bg-[white] mt-4 px-4 py-4">
+            <h1 class="font-bold text-[brown] text-xl">Your cart <span id="cartQ"></span></h1>
+            <div class="w-full h-full border flex flex-col justify-center items-center transition-all duration-300" id="emptyCart">
+                <img src="illustration-empty-cart.svg" alt="dfkdndvu">
+                <h1 class="text-gray-500 text-lg font-bold">Your cart is empty</h1>
+                <p class="text-gray-500 text-sm">Add items to your cart to view them here.</p>
+            </div>
+            <div class="w-full h-full flex flex-col scale-0 transition-all duration-300" id="cartSubCons">
+                <div class="flex w-full h-[70%] flex-col overflow-y-scroll mb-2" id="cartSubCon">
+                </div>
+                <div class="flex w-full h-[30%] flex-col gap-4">
+                    <h1 class="font-bold text-lg"><span id="totalPrice">0</span> </h1>
+                    <button class="bg-[#C83C0E] py-4 hover:bg-opacity-90 active:scale-[.948] transition-all duration-300 rounded text-white font-bold text-xl h-[3em]" id="confirmBtn">Confirm Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col w-full h-screen justify-center items-center scale-0 fixed transition-all duration-300" id="confirmOrder">
+        <div class="flex flex-col w-[400px] h-[500px] bg-white rounded-lg shadow-lg p-6 nwa">
+            <iconify-icon 
+            icon="material-symbols:check-circle-rounded" 
+            class="text-[green] mb-4"
+            width="40"></iconify-icon>
+            <h1 class="font-bold text-xl">Order Confirmed</h1>
+            <div class="flex flex-col w-full h-full overflow-y-scroll gap-2" id="displayOrderd"></div>
+            <button class="bg-[#C83C0E] text-white py-2 px-4 rounded hover:bg-opacity-90 active:scale-[.948] transition-all duration-300" id="startAllBtn">Start New Order</button>
+        </div>        
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
